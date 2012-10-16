@@ -10,10 +10,11 @@ public class Square {
 		int whileCounter = 1;
 		int tempCounter = 1;
 		
+		/*Square alogrithm*/
 		while(whileCounter<=number){
-			if(tempCounter % 2 > 0){		//if tempCounter is an "odd number"
-				square += tempCounter;			//add "odd number" to square
-				whileCounter++;				//count up the whileCounter
+			if(tempCounter % 2 > 0){ //if tempCounter is an "odd number"
+				square += tempCounter; //add "odd number" to square
+				whileCounter++; //count up the whileCounter
 			}
 			tempCounter++;
 		}

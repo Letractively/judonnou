@@ -3,7 +3,7 @@ package edu.hm.jurkowsk;
 public class Square_dyn {
 	public static void main(String[] args) {
 		
-		int number =  Integer.parseInt(args[0]);; //Input number
+		int number =  Integer.parseInt(args[0]); //Input number
 		int square = 0; //Output number
 		
 		/*Counters*/

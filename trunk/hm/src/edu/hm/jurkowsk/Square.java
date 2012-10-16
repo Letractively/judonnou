@@ -10,7 +10,7 @@ public class Square {
 		int whileCounter = 1;
 		int tempCounter = 1;
 		
-		/*Square alogrithm*/
+		/*Square algorithm*/
 		while(whileCounter<=number){
 			if(tempCounter % 2 > 0){ //if tempCounter is an "odd number"
 				square += tempCounter; //add "odd number" to square

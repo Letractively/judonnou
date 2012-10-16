@@ -1,0 +1,19 @@
+todos:
+
+2 mannschaften erkennen
+mannschafts farben setzen (blau/rot) durchschnittsfarbe
+verbindungen der jeweilgen mannschaften setzen
+torwart erkennen
+spielfeld erkennen (koordinaten /in meter)
+darstellung in eigener spielfeld api
+ball erkennen (schwarz?)
+  
+ 
+ video: in pngs splitten 90 bilder pro minute je nach leistung
+ oder eine spielminute in bilder , mindest fps rausfinden
+ 
+ positions muster erkennen und in db speichern (musterkennung, mannschaften, spieldatum, gegner)
+ 
+ muster verlgleichen
+ 
+ 

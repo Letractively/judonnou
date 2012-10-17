@@ -1,21 +1,36 @@
 package edu.hm.jurkowsk.excercise_2;
 
+import java.util.ArrayList;
+
+/**
+ * @author Benjamin Jurkowski (jurkowsk@hm.edu)
+ * 
+ */
 public class Quersumme {
 
 	public static void main(String[] args) {
-		int input = 4567;
-		System.out.println("Input: " + input);
-		System.out.println("digit sum: " + getDigitSum(input));
+		Quersumme qs = new Quersumme();
+		qs.getDigitSum(4567);
 	}
 	
-	static int digitSum = 0;
-	public static int getDigitSum(int input) {
+	int digitSum = 0;
+	int recursionCount = 0;
+	
+	public void getDigitSum(int input) {
+		/*Output text*/
+		if(recursionCount==0){
+			System.out.println("Eingabe: Positive ganze Zahl " + input);
+			System.out.print("Ausgabe: Die Quersumme ergibt sich aus: ");
+		}
 		if(input>0 && input <10000){ //0 < input < 10.000
 			digitSum += input%10; //last digit of input
-			System.out.println(input%10);
-			input = input/10; //cut the last digit by dividing
+			System.out.print(input%10 + " ");
+			recursionCount++;
+			input = input/10; //dividing input by 10 to cut the last digit
 			getDigitSum(input); //recursion till input <= 0
+		}else{
+			/*recursion ended*/
+			System.out.print("= " + digitSum);
 		}
-		return digitSum;
 	}
 }

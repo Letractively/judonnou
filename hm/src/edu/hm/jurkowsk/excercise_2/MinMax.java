@@ -1,5 +1,8 @@
 package edu.hm.jurkowsk.excercise_2;
-
+/**
+ * @author Benjamin Jurkowski (jurkowsk@hm.edu)
+ * 
+ */
 public class MinMax {
 
 	public static void main(String[] args) {

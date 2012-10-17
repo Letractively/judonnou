@@ -1,11 +1,10 @@
 package edu.hm.jurkowsk.excercise_2;
 
-import java.util.ArrayList;
-
 /**
  * @author Benjamin Jurkowski (jurkowsk@hm.edu)
  * 
  */
+
 public class Quersumme {
 
 	public static void main(String[] args) {

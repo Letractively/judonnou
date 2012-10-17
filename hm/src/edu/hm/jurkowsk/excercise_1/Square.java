@@ -1,5 +1,8 @@
 package edu.hm.jurkowsk.excercise_1;
-
+/**
+ * @author Benjamin Jurkowski (jurkowsk@hm.edu)
+ * 
+ */
 public class Square {
 	public static void main(String[] args) {
 		

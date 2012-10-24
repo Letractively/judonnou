@@ -1,9 +1,11 @@
 package edu.hm.jurkowsk.excercise_3;
-
+/**
+ * @author Benjamin Jurkowski (jurkowsk@hm.edu)
+ */
 public class Triangle {
 	public static void main(String[] args) {
 		
-		int width = 49; 
+		int width = 25; //input zahl (breite)
 		if(width%2>0){//nur ungerade zahlen >0
 			int height = (width/2)+1;
 			int oddCounter = 1; //zähler ungerade zahlen

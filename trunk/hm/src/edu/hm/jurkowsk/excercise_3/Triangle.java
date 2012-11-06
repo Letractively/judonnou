@@ -5,7 +5,7 @@ package edu.hm.jurkowsk.excercise_3;
 public class Triangle {
 	public static void main(String[] args) {
 		
-		int width = 25; //input zahl (breite)
+		int width = 35; //input zahl (breite)
 		if(width%2>0){//nur ungerade zahlen >0
 			int height = (width/2)+1;
 			int oddCounter = 1; //zähler ungerade zahlen
